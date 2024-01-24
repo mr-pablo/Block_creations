@@ -2,12 +2,10 @@ html,
 body {
     margin: 0;
     padding: 0;
-    grid-template-rows: 1fr auto; 
-            /* min-height: 100vh; */
-
 }
 
 #container {
+    justify-items: center;
     background-color: blue;
     justify-content: space-between;
     box-sizing: border-box;
@@ -19,7 +17,7 @@ body {
     align-content: flex-start;
 
     gap: 10px;
-    row-gap: 10px;
+   
 }
 
 #add_button {
@@ -60,7 +58,7 @@ body {
     /* background: rgb(7, 33, 33); */
     height: 50px;
     width: 50px;
-    border: 2px solid black;
+    border: 2px solid ;
     opacity: 0; 
     animation: scaleUp 0.5s ease-in-out forwards; 
 }
